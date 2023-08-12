@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harsh's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="android-chrome-512x512.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+       
+            $(".dashboard-icon").click(function() {
+                $(".mobile-menu").slideToggle();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="top-container" id="title">
+        <div class="clouds-mountain">
+            <img class="top-cloud" src="images/cloud.png" alt="clouds">
+            <img src="images/mountain.png" alt="mountain" class="title-img">
+        </div>
+        <div class="title-text">
+            <h1 class="display-3">I'm Harsh</h1>
+            <h2 class="lead">A CS Student</h2>
+        </div>
+        <img class="bottom-cloud" src="images/cloud.png" alt="clouds">
+    </div>
+    <div class="navbar">
+        <div class="navbar-left">
+            <span class="dashboard-icon">&#9776;</span>
+            <a class="navbar-brand" href="#">Harsh Singh</a>
+        </div>
+        <div class="navbar-right">
+            <a class="navbar-link" href="https://www.linkedin.com/in/harsh-singh-9822751a1">LinkedIn</a>
+            <a class="navbar-link" href="https://twitter.com/beingharsh__?t=QIw4VRlA8Q5FHQvxkqJ3lQ&s=09">Twitter</a>
+            <a class="navbar-link" href="https://instagram.com/_harsh666_?igshid=YzgyMTM2MGM=">Instagram</a>
+            <a class="navbar-link" href="https://karmicharsh.github.io/personal-site/">CV Website</a>
+        </div>
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img src="C:\New folder\.vscode\New site\images\harsh's profile pic.png" alt="Harsh's profile pic" width="200" class="profile-pic">
+            <h2>Hello.</h2>
+            <p class="intro">I'm a 3rd year pursuing computer science graduate</p>
+        </div>
+        <hr>
+        <div class="skills container-fluid" id="features">
+            <h2 class="big-heading">My Skills.</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <img class="icon design" src="https://media4.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.webp?cid=ecf05e47hgff6ovbaxcnmqbar7e9ceq9v277u3gl1zphee6m&rid=200w.webp&ct=g" alt="">
+                        <h3>Design and Development</h3>
+                        <p>I am a learning Full Stack Web Developer well well-versed in Frontend Development.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <img class="icon football" src="https://media3.giphy.com/media/SKAQ4kWov6tdC/giphy.webp?cid=ecf05e479s580qw2diircekgqxql7s8bygkj3biy2inloc4i&rid=giphy.webp&ct=g" alt="">
+                        <h3>Football</h3>
+                        <p>I love playing Football.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me container-fluid" id="cta">
+            <h2 class="cta-header">Get In Touch</h2>
+            <h3>For mail and enquiry</h3>
+            <p>Send me a Message!</p>
+            <a class="btn btn-primary" href="mailto:iluvsabrina2002@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+    <div class="bottom-container" id="footer">
+        <p>HARSH SINGH.</p>
+    </div>
+</body>
+</html>
